@@ -16,7 +16,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -61,7 +61,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -110,7 +110,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -317,7 +317,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -459,7 +459,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -614,7 +614,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -847,7 +847,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -1067,7 +1067,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -1087,8 +1087,8 @@
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-state-part-b-child-count-educational-environments",
-      "url": "idea-section-618-data-products-state-part-b-child-count-educational-environments",
+      "identifier": "idea-section-618-data-products-state-part-b-educational-environments",
+      "url": "idea-section-618-data-products-state-part-b-educational-environments",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -1209,7 +1209,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -1443,7 +1443,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -1624,7 +1624,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -1857,7 +1857,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2000,7 +2000,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2020,8 +2020,8 @@
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-state-part-c-settings",
-      "url": "idea-section-618-data-products-state-part-c-settings",
+      "identifier": "idea-section-618-data-products-state-part-c-count-settings",
+      "url": "idea-section-618-data-products-state-part-c-count-settings",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -2155,7 +2155,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2375,7 +2375,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2608,7 +2608,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2749,7 +2749,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2800,7 +2800,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -2931,7 +2931,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3063,7 +3063,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3193,7 +3193,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3325,7 +3325,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3457,7 +3457,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3589,7 +3589,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3722,7 +3722,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3855,7 +3855,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -3987,7 +3987,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4119,7 +4119,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4250,7 +4250,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4382,7 +4382,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4516,7 +4516,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4647,7 +4647,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4778,7 +4778,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -4910,7 +4910,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5042,7 +5042,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5175,7 +5175,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5308,7 +5308,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5441,7 +5441,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5574,7 +5574,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5706,7 +5706,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5811,7 +5811,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -5943,7 +5943,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6074,7 +6074,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6207,7 +6207,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6341,7 +6341,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6473,7 +6473,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6604,7 +6604,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6736,7 +6736,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -6867,7 +6867,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7001,7 +7001,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7133,7 +7133,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7264,7 +7264,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7395,7 +7395,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7527,7 +7527,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7659,7 +7659,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7790,7 +7790,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -7921,7 +7921,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8055,7 +8055,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8186,7 +8186,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8317,7 +8317,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8448,7 +8448,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8579,7 +8579,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8710,7 +8710,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8840,7 +8840,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -8971,7 +8971,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9101,7 +9101,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9232,7 +9232,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9364,7 +9364,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9495,7 +9495,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9627,7 +9627,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9759,7 +9759,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -9891,7 +9891,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10023,7 +10023,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10155,7 +10155,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10247,7 +10247,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10267,8 +10267,8 @@
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-static-tables-personnel-table1",
-      "url": "idea-section-618-data-products-static-tables-personnel-table1",
+      "identifier": "idea-section-618-data-products-static-tables-part-b-personnel-table1",
+      "url": "idea-section-618-data-products-static-tables-part-b-personnel-table1",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -10378,7 +10378,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10506,7 +10506,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10558,7 +10558,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10690,7 +10690,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10823,7 +10823,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -10955,7 +10955,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11087,7 +11087,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11219,7 +11219,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11351,7 +11351,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11483,7 +11483,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11615,7 +11615,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11747,7 +11747,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11866,7 +11866,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -11984,7 +11984,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -12115,7 +12115,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -12246,7 +12246,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -12376,7 +12376,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -12506,7 +12506,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
@@ -12636,7 +12636,7 @@
       "modified": "2021-01-28",
       "publisher": {
         "@type": "org:Organization",
-        "name": "Office of Special Education Programs",
+        "name": "Office of Special Education Programs (OSEP)",
         "subOrganziationOf": {
             "@type": "org:Organization",
             "name": "Office of Special Education and Rehabilitative Services (OSERS)",
