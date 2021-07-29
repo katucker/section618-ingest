@@ -1,0 +1,806 @@
+{
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "@id": "osep_data_json",
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "dataset": [
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 Data Products",
+      "description": "Section 618 of the Individuals with Disabilities Education Act (IDEA) requires that each state submit data about the infants and toddlers, birth through age 2, who receive early intervention services under Part C of IDEA and children with disabilities, ages 3 through 21, who receive special education and related services under Part B of IDEA.\nFiles containing the submitted data are organized in [State Level Data Files][1] and Static Data Tables containing summaries of data in [Part B][2] and [Part C][3].\n[1]:idea-section-618-data-products-state\n[2]:idea-section-618-data-products-static-part-b\n[3]:idea-section-618-data-products-static-part-c",
+      "keyword": [
+        "individuals-with-disabilities-education-act",
+        "data-products"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:15"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 State Level Data Files",
+      "description": "#IDEA Section 618 Data Products: State Level Data Files\nThere are 12 data collections authorized under the Individuals with Disabilities Education Act (IDEA) Section 618 under:\n\n##Part B:\n* [Child Count][B-Count]\n* [Educational Environments][B-Environ]\n* [Personnel][B-Personnel]\n* [Exiting][B-Exiting]\n* [Discipline][B-Discipline]\n* [Assessment][B-Assessment]\n* [Dispute Resolution][B-Dispute]\n* [Maintenance of Effort Reduction and Coordinated Early Intervening Services][B-Maint]\n\n##Part C:\n* [Child Count][C-Count]\n* [Settings][C-Settings]\n* [Exiting][C-Exiting]\n* [Dispute Resolution][C-Dispute]\n\n\\* Prior to school year (SY) 2012, the Part B Child Count and Educational Environments data and the Part C Child Count and Settings data were provided to the public in separate files.\n[B-Count]: idea-section-618-data-products-state-part-b-child-count\n[B-Environ]: idea-section-618-data-products-state-part-b-child-count-educational-environments\n[B-Assessment]: idea-section-618-data-products-state-part-b-assessment\n[B-Discipline]: idea-section-618-data-products-state-part-b-discipline\n[B-Dispute]: idea-section-618-data-products-state-part-b-dispute-resolution\n[B-Exiting]: idea-section-618-data-products-state-part-b-exiting\n[B-Maint]: idea-section-618-data-products-state-part-b-maintenance-of-effort-reduction\n[B-Personnel]: idea-section-618-data-products-state-part-b-personnel\n[C-Count]: idea-section-618-data-products-state-part-c-child-count\n[C-Settings]: idea-section-618-data-products-state-part-c-settings\n[C-Dispute]: idea-section-618-data-products-state-part-c-dispute\n[C-Exiting]: idea-section-618-data-products-state-part-c-exiting\n",
+      "keyword": [
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "state-level-data-files"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-state",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:15"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 State Level Data Files Part B Assessment",
+      "description": "Part B of *IDEA* provides funds to states to assist them in providing free appropriate public education (FAPE) to children ages three through 21 with disabilities who are in need of special education and related services.\n#Assessment",
+      "keyword": [
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "state-level-data-files",
+        "performance",
+        "section-618",
+        "special-education",
+        "assessment"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-state-part-b-assessment",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:15"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "2018-19",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2018-2019",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2018-19.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 28 Jan\n2021 19:29:22 GMT",
+            "content-length": "37792"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2017-18",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2017-2018",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2017-18.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Mon, 10 Feb\n2020 18:56:07 GMT",
+            "content-length": "37338"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2016-17",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2016-2017",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2016-17.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:38 GMT",
+            "content-length": "44468"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2015-2016",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2015-16.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:38 GMT",
+            "content-length": "44082"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2014-2015",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2014-15.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:38 GMT",
+            "content-length": "52821"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2013-2014",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2013-14.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:38 GMT",
+            "content-length": "57505"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2012-2013",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2012-13.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:38 GMT",
+            "content-length": "53646"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2011-2012",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2011-12.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:38 GMT",
+            "content-length": "59182"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2010-2011",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2010-11.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:39 GMT",
+            "content-length": "214726"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2009-2010",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2009-10.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:39 GMT",
+            "content-length": "625665"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2008-2009",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2008-09.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:40 GMT",
+            "content-length": "64915"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2007-2008",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2007-08.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:40 GMT",
+            "content-length": "62855"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 State Level Data Files Part B Child Count",
+      "description": "Part B of *IDEA* provides funds to states to assist them in providing free appropriate public education (FAPE) to children ages three through 21 with disabilities who are in need of special education and related services.\n#Child Count",
+      "keyword": [
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "state-level-data-files",
+        "performance",
+        "section-618",
+        "special-education",
+        "assessment"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-state-part-b-child-count",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:15"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2011",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2011.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:40 GMT",
+            "content-length": "299115"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2010",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2010.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:41 GMT",
+            "content-length": "294982"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2009",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2009.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:41 GMT",
+            "content-length": "413224"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2008",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2008.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:42 GMT",
+            "content-length": "435724"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2007",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2007.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:42 GMT",
+            "content-length": "250870"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2006",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2006.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:42 GMT",
+            "content-length": "255783"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2005",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2005",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2005.csv",
+          "format": "csv",
+          "mediaType": "text/csv",
+          "headerMetadata": {
+            "content-type": "text/csv",
+            "last-modified": "Thu, 25 Apr 2019 06:59:43 GMT",
+            "content-length": "254133"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 Data Products: Static Tables- Part B",
+      "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\n1.  [Number and percent of students grades 3 through 8 and high school, served under IDEA, Part B, who participated in reading and math assessments, by assessment type and state.][B-Assessment-1]\n2.  [Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who received a valid and proficient score on assessments for math, by assessment type, grade level, and state.][B-Assessment-2]\n3.  [Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who received a valid and proficient score on assessments for reading, by assessment type, grade level, and state.][B-Assessment-3]\n\n##Part B Child Count and Educational Environments\n1. [Number of children and students served under IDEA, Part B, by age group and state.][B-Environ-1]\n2. [Number of children ages 3 through 5 served under IDEA, Part B, by disability and state.][B-Environ-2]\n3. [Number of students ages 6 through 21 served under IDEA, Part B, by disability and state.][B-Environ-3]\n4. [Number and percent of children ages 3 through 5 and students ages 6 through 21 served under IDEA, Part B, by EL status and state.][B-Environ-4]\n5. [Number and percent of children ages 3 through 5 served under IDEA, Part B, by race/ethnicity and state.][B-Environ-5]\n6. [Number and percent of students ages 6 through 21 served under IDEA, Part B, by race/ethnicity and state.][B-Environ-6]\n7. [Children ages 3 through 5 served under IDEA, Part B, as a percentage of population, by disability category and state.][B-Environ-7]\n8. [Students ages 6 through 21 served under IDEA, Part B, as a percentage of population, by disability category and state.][B-Environ-8]\n9. [Children and students ages 3 through 21 served under IDEA, Part B, as a percentage of population, by age and state.][B-Environ-9]\n10. [Number and percent of children in race/ethnicity category ages 3 through 5 with disabilities served under IDEA, Part B, by disability category and state.][B-Environ-10]\n11. [Number and percent of children in race/ethnicity category ages 6 through 21 with disabilities served under IDEA, Part B, by disability category and state.][B-Environ-11]\n12. [Number and percent of children ages 3 through 5 served under IDEA, Part B, by educational environment and state.][B-Environ-12]\n13. [Number and percent of students ages 6 through 21 served under IDEA, Part B, by educational environment and state.][B-Environ-13]\n14. [Number and percent of female/male children ages 3 through 5 served under IDEA, Part B, by educational environment and state.][B-Environ-14]\n15. [Number and percent of female/male students ages 6 through 21 served under IDEA, Part B, by educational environment and state.][B-Environ-15]\n16. [Number and percent of non-English Learner (non-EL) and English Learner (EL) children ages 3 through 5 served under IDEA, Part B, by educational environment and state.][B-Environ-16]\n17. [Number and percent of non-English Learner (non-EL) and English Learner (EL) students ages 6 through 21 served under IDEA, Part B, by educational environment and state.][B-Environ-17]\n18. [Number and percent of children in race/ethnicity category ages 3 through 5 with disabilities served under IDEA, Part B, by educational environment and state.][B-Environ-18]\n19. [Number and percent of students in race/ethnicity category ages 6 through 21 with disabilities served under IDEA, Part B, by educational environment and state.][B-Environ-19]\n20. [Number of children and students served under IDEA, Part B, in the US, Outlying Areas, and Freely Associated States by age and disability category.][B-Environ-20]\n\n##Part B Discipline\n1.  [Number of children and students ages 3 through 21 with disabilities served under IDEA, Part B, removed to an Interim Alternative Educational Setting by type of removal and state by disability.][B-Discipline-1]\n2.  [Number of children and students ages 3 through 21 served under IDEA, Part B, suspended/expelled by total number of days removed and state by disability.][B-Discipline-2]\n3.  [Number of children and students ages 3 through 21 served under IDEA, Part B, subject to disciplinary removal by total cumulative number of days removed during school year and state by type of disability.][B-Discipline-3]\n4.  [Number of children and students ages 3 through 21 with disabilities served under IDEA, Part B, removed to an Interim Alternative Educational Setting by type of removal and state by race/ethnicity.][B-Discipline-4]\n5.  [Number of children and students ages 3 through 21 with disabilities served under IDEA, Part B, suspended/expelled by total number of days removed and state by race/ethnicity.][B-Discipline-5]\n6.  [Number of children and students ages 3 through 21 with disabilities served under IDEA, Part B, subject to disciplinary removal by total cumulative number of days removed during school year, and state by race/ethnicity.][B-Discipline-6]\n7.  [Number and percent of female and male children and students ages 3 through 21 with disabilities served under IDEA, Part B, removed to an Interim Alternative Educational Setting by type of removal and state.][B-Discipline-7]\n8.  [Number and percent of female and male children and students ages 3 through 21 with disabilities served under IDEA, Part B, suspended/expelled by total number of days removed and state.][B-Discipline-8]\n9.  [Number and percent of female and male children and students ages 3 through 21 with disabilities served under IDEA, Part B, subject to disciplinary removal by total cumulative number of days removed during school year and state.][B-Discipline-9]\n10.  [Number and percent of non-English Learner (non-EL) and English Learner (EL) children and students ages 3 through 21 with disabilities served under IDEA, Part B, removed to an Interim Alternative Educational Setting by type of removal and state.][B-Discipline-10]\n11.  [Number and percent of non-English Learner (non-EL) and English Learner (EL) children and students ages 3 through 21 with disabilities served under IDEA, Part B, suspended/expelled by total number of removed and state.][B-Discipline-11]\n12.  [Number and percent of non-English Learner (non-EL) and English Learner (EL) children and students ages 3 through 21 with disabilities served under IDEA, Part B, subject to disciplinary removal by total cumulative number of days removed during school year and state.][B-Discipline-12]\n13.  [Number of children and students, ages 3 through 21, subject to expulsion, by disability status, receipt of educational services and state.][B-Discipline-13]\n14.  [Percent of children and students ages 3 through 21 with disabilities served under IDEA, Part B, removed to an Interim Alternative Educational Setting by type of removal, disability, and state.][B-Discipline-14]\n15.  [Percent of children and students ages 3 through 21 with disabilities served under IDEA, Part B, suspended/expelled by total number of days removed, disability, and state.][B-Discipline-15]\n16.  [Percent of children and students ages 3 through 21 with disabilities served under IDEA, Part B, subject to disciplinary removal by total cumulative number of days removed during school year, disability, and state.][B-Discipline-16]\n17.  [Percent of children and students ages 3 through 21 with disabilities served under IDEA, Part B, removed to an Interim Alternative Educational Setting by type of removal, race/ethnicity, and state.][B-Discipline-17]\n18.  [Percent of children and students ages 3 through 21 with disabilities served under IDEA, Part B, suspended/expelled by total number of days removed, race/ethnicity, and state.][B-Discipline-18]\n19.  [Percent of children and students ages 3 through 21 with disabilities served under IDEA, Part B, subject to disciplinary removal by total cumulative number of days removed during school year, race/ ethnicity, and state.][B-Discipline-19]\n\n##Part B Dispute Resolution\n1.  [Number and percent of written, signed complaints initiated through dispute resolution procedures for children ages 3 through 21 served under IDEA, Part B, by case status and state.][B-Dispute-1]\n2.  [Number and percent of mediations held through dispute resolution procedures for children ages 3 through 21 served under IDEA, Part B, by case status and state.][B-Dispute-2]\n3.  [Number and percent of hearings (fully adjudicated) through dispute resolution procedures for children ages 3 through 21 served under IDEA, Part B, by case status and state.][B-Dispute-3]\n4.  [Number of expedited hearing requests (related to disciplinary decision) filed through dispute resolution procedures for children ages 3 through 21 served under IDEA, Part B, by case status and state.][B-Dispute-4]\n\n##Part B Exiting\n1.  [Number of students ages 14 through 21 with disabilities served under IDEA, Part B, who exited special education, by exit reason and state.][B-Exiting-1]\n2.  [Number of students ages 14 through 21 with disabilities served under IDEA, Part B, in the U.S., Outlying Areas, and Freely Associated States who exited special education, by exit reason and age.][B-Exiting-2]\n3.  [Number and percent of students ages 14 through 21 with disabilities served under IDEA, Part B, who exited special education, by exit reason, race/ethnicity, and state.][B-Exiting-3]\n4.  [Number and percent of female and male students ages 14 through 21 with disabilities served under IDEA, Part B, who exited special education, by exit reason and state.][B-Exiting-4]\n5.  [Number and percent of non-English Learner (non-EL) and English Learner (EL) students ages 14 through 21 with disabilities served under IDEA, Part B, who exited special education, by exit reason and state.][B-Exiting-5]\n\n##Part B Maintenance of Effort Reduction and Coordinated Early Intervening Services\n1.  [Number and percent of LEAs reported under each determination level that controls whether the LEA may be able to reduce MOE][B-Maint-1]\n2.  [Amount reduced under the IDEA MOE provision in IDEA §613(a)(2)(C)][B-Maint-2]\n3.  [Number and percent of LEAs that met requirements and had an increase in 611 allocations and took the MOE reduction][B-Maint-3]\n4.  [Number and percent of LEAs required to use 15% of funds for CEIS due to significant disproportionality or voluntarily reserved funds for CEIS][B-Maint-4]\n5.  [Number of children who received CEIS anytime in the past two years and who received special education and related services][B-Maint-5]\n6.  [Number and percent of LEAs/ESAs that were determined to meet the MOE compliance standard in SY 2016-17][B-Maint-6]\n\n##Part B Personnel\n1. [Teachers employed (FTE) to work with children, ages 3 through 5, who are receiving special education under IDEA, Part B, by qualification status and state.][B-Personnel-1]\n2. [Teachers employed (FTE) to work with children, ages 6 through 21, who are receiving special education under IDEA, Part B, by qualification status and state.][B-Personnel-2]\n\n\n[B-Assessment-1]: idea-section-618-data-products-static-tables-part-b-assessment-table1\n[B-Assessment-2]: idea-section-618-data-products-static-tables-part-b-assessment-table2\n[B-Assessment-3]: idea-section-618-data-products-static-tables-part-b-assessment-table3\n[B-Environ-1]: idea-section-618-data-products-static-tables-part-b-count-environ-table1\n[B-Environ-2]: idea-section-618-data-products-static-tables-part-b-count-environ-table2\n[B-Environ-3]: idea-section-618-data-products-static-tables-part-b-count-environ-table3 \n[B-Environ-4]: idea-section-618-data-products-static-tables-part-b-count-environ-table4\n[B-Environ-5]: idea-section-618-data-products-static-tables-part-b-count-environ-table5\n[B-Environ-6]: idea-section-618-data-products-static-tables-part-b-count-environ-table6\n[B-Environ-7]: idea-section-618-data-products-static-tables-part-b-count-environ-table7\n[B-Environ-8]: idea-section-618-data-products-static-tables-part-b-count-environ-table8\n[B-Environ-9]: idea-section-618-data-products-static-tables-part-b-count-environ-table9\n[B-Environ-10]: idea-section-618-data-products-static-tables-part-b-count-environ-table10\n[B-Environ-11]: idea-section-618-data-products-static-tables-part-b-count-environ-table11\n[B-Environ-12]: idea-section-618-data-products-static-tables-part-b-count-environ-table12\n[B-Environ-13]: idea-section-618-data-products-static-tables-part-b-count-environ-table13\n[B-Environ-14]: idea-section-618-data-products-static-tables-part-b-count-environ-table14\n[B-Environ-15]: idea-section-618-data-products-static-tables-part-b-count-environ-table15\n[B-Environ-16]: idea-section-618-data-products-static-tables-part-b-count-environ-table16\n[B-Environ-17]: idea-section-618-data-products-static-tables-part-b-count-environ-table17\n[B-Environ-18]: idea-section-618-data-products-static-tables-part-b-count-environ-table18\n[B-Environ-19]: idea-section-618-data-products-static-tables-part-b-count-environ-table19\n[B-Environ-20]: idea-section-618-data-products-static-tables-part-b-count-environ-table20\n[B-Discipline-1]: idea-section-618-data-products-static-tables-part-b-discipline-table1\n[B-Discipline-2]: idea-section-618-data-products-static-tables-part-b-discipline-table2\n[B-Discipline-3]: idea-section-618-data-products-static-tables-part-b-discipline-table3\n[B-Discipline-4]: idea-section-618-data-products-static-tables-part-b-discipline-table4\n[B-Discipline-5]: idea-section-618-data-products-static-tables-part-b-discipline-table5\n[B-Discipline-6]: idea-section-618-data-products-static-tables-part-b-discipline-table6\n[B-Discipline-7]: idea-section-618-data-products-static-tables-part-b-discipline-table7\n[B-Discipline-8]: idea-section-618-data-products-static-tables-part-b-discipline-table8\n[B-Discipline-9]: idea-section-618-data-products-static-tables-part-b-discipline-table9\n[B-Discipline-10]: idea-section-618-data-products-static-tables-part-b-discipline-table10\n[B-Discipline-11]: idea-section-618-data-products-static-tables-part-b-discipline-table11\n[B-Discipline-12]: idea-section-618-data-products-static-tables-part-b-discipline-table12\n[B-Discipline-13]: idea-section-618-data-products-static-tables-part-b-discipline-table13\n[B-Discipline-14]: idea-section-618-data-products-static-tables-part-b-discipline-table14\n[B-Discipline-15]: idea-section-618-data-products-static-tables-part-b-discipline-table15\n[B-Discipline-16]: idea-section-618-data-products-static-tables-part-b-discipline-table16\n[B-Discipline-17]: idea-section-618-data-products-static-tables-part-b-discipline-table17\n[B-Discipline-18]: idea-section-618-data-products-static-tables-part-b-discipline-table18\n[B-Discipline-19]: idea-section-618-data-products-static-tables-part-b-discipline-table19\n[B-Dispute-1]: idea-section-618-data-products-static-tables-part-b-dispute-table1\n[B-Dispute-2]: idea-section-618-data-products-static-tables-part-b-dispute-table2\n[B-Dispute-3]: idea-section-618-data-products-static-tables-part-b-dispute-table3\n[B-Dispute-4]: idea-section-618-data-products-static-tables-part-b-dispute-table4\n[B-Exiting-1]: idea-section-618-data-products-static-tables-part-b-exiting-table1\n[B-Exiting-2]: idea-section-618-data-products-static-tables-part-b-exiting-table2\n[B-Exiting-3]: idea-section-618-data-products-static-tables-part-b-exiting-table3\n[B-Exiting-4]: idea-section-618-data-products-static-tables-part-b-exiting-table4\n[B-Exiting-5]: idea-section-618-data-products-static-tables-part-b-exiting-table5\n[B-Maint-1]: idea-section-618-data-products-static-tables-part-b-moe-table1\n[B-Maint-2]: idea-section-618-data-products-static-tables-part-b-moe-table2\n[B-Maint-3]: idea-section-618-data-products-static-tables-part-b-moe-table3\n[B-Maint-4]: idea-section-618-data-products-static-tables-part-b-moe-table4\n[B-Maint-5]: idea-section-618-data-products-static-tables-part-b-moe-table5\n[B-Maint-6]: idea-section-618-data-products-static-tables-part-b-moe-table6\n[B-Personnel-1]: idea-section-618-data-products-static-tables-part-b-personnel-table1\n[B-Personnel-2]: idea-section-618-data-products-static-tables-part-b-personnel-table2\n",
+      "keyword": [
+        "static-tables",
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "performance",
+        "section-618",
+        "special-education"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-static-tables-part-b",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:00"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 Data Products: Static Part B Assessment Table 1",
+      "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school, served under IDEA, Part B, who participated in reading and math assessments, by assessment type and state.",
+      "keyword": [
+        "static-tables",
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "performance",
+        "section-618",
+        "special-education",
+        "part-b",
+        "assessment",
+        "participation"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-static-tables-part-b-assessment-table1",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:00"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "2018-2019",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who participated in reading and math assessments by assessment types and state in school year\n2018-2019",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2018-2019/part-b/assessment/1819-bassessment-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Fri, 29 Jan\n2021 15:36:37 GMT",
+            "content-length": "47647"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2017-2018",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who participated in reading and math assessments by assessment types and state in school year\n2017-2018",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2017-2018/part-b/assessment/1718-bassessment-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Mon, 10 Feb\n2020 19:07:18 GMT",
+            "content-length": "44166"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2016-2017",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who participated in reading and math assessments by assessment types and state in school year\n2016-2017",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2016-2017/part-b/assessment/1617-bassessment-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:29 GMT",
+            "content-length": "42918"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2015-2016",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who participated in reading and math assessments by assessment types and state in school year\n2015-2016",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2015-2016/part-b/assessment/1516-bassessment-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:29 GMT",
+            "content-length": "43324"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2014-2015",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who participated in reading and math assessments by assessment types and state in school year\n2014-2015",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2014-2015/part-b/assessment/1415-bassessment-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:29 GMT",
+            "content-length": "52252"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2013-2014",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Assessment\nTable 1 Number and percent of students grades 3 through 8 and high school served under IDEA, Part B, who participated in reading and math assessments by assessment types and state in school year\n2013-2014",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2013-2014/part-b/assessment/1314-bassessment-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:29 GMT",
+            "content-length": "57040"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 Data Products: Static Tables- Part C",
+      "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C Child Count and Settings\n1.  [Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.][Static-C-Count-1]\n2.  [Number and percent of infants and toddlers receiving early intervention services under IDEA, Part C, by age group, gender and state.][Static-C-Count-2]\n3.  [Number of at-risk infants and toddlers ages birth through 2 receiving early intervention services under IDEA, Part C, by age and state.][Static-C-Count-3]\n4.  [Number and percent of infants and toddlers receiving early intervention services under IDEA, Part C, by age and state.][Static-C-Count-4]\n5.  [Number and percent of infants and toddlers receiving early intervention services under IDEA, Part C, by age and state and race/ethnicity.][Static-C-Count-5]\n6.  [Number and percent of at-risk infants and toddlers birth through 2 receiving early intervention services under IDEA, Part C, by race/ethnicity and state.][Static-C-Count-6]\n7.  [Number of infants and toddlers birth through 2 served under IDEA, Part C, by early intervention setting and state.][Static-C-Count-7]\n8.  [Number and percent of infants and toddlers ages birth through 2 served under IDEA, Part C, by early intervention setting and state and race/ethnicity.][Static-C-Count-8]\n9.  [Number of and percent infants and toddlers ages three and older served under IDEA, Part C, by early intervention setting and state and race/ethnicity.][Static-C-Count-9]\n10. [Cumulative count of infants and toddlers birth through age 2 receiving early intervention services under IDEA, Part C, by gender and state][Static-C-Count-10]\n11. [Cumulative count of infants and toddlers birth through age 2 receiving early intervention services under IDEA, Part C, by race/ethnicity and state][Static-C-Count-11]\n\n##Part C Dispute Resolution\n1. [Number and percent of written, signed complaints through dispute resolution procedures for infants and toddlers ages birth through 2 years, served under IDEA, Part C, by case status and state.][Static-C-Dispute-1]\n2. [Number and percent of mediations held through dispute resolution procedures for infants and toddlers ages birth through 2 years, served under IDEA, Part C, by case status and state.][Static-C-Dispute-2]\n3. [Number and percent of hearings (fully adjudicated) through dispute resolution procedures for infants and toddlers ages birth through 2 years, served under IDEA, Part C, by case status and state.][Static-C-Dispute-3]\n\n##Part C Exiting\n1. [Number of infants and toddlers ages birth through 2 served under IDEA, Part C, who exited Part C programs, by exit reason and state.][Static-C-Exiting-1]\n2. [Number of infants and toddlers through age 2 with disabilities served under IDEA, Part C, who exited Part C, by exit reason and state by race/ethnicity.][Static-C-Exiting-2]\n3. [Number and percent of male/female infants and toddlers ages birth through 2 with disabilities served under IDEA, Part C, who exited Part C, by exit reason and state.][Static-C-Exiting-3]\n\n[Static-C-Count-1]: idea-section-618-data-products-static-tables-part-c-child-count-table1\n[Static-C-Count-2]: idea-section-618-data-products-static-tables-part-c-child-count-table2\n[Static-C-Count-3]: idea-section-618-data-products-static-tables-part-c-child-count-table3\n[Static-C-Count-4]: idea-section-618-data-products-static-tables-part-c-child-count-table4\n[Static-C-Count-5]: idea-section-618-data-products-static-tables-part-c-child-count-table5\n[Static-C-Count-6]: idea-section-618-data-products-static-tables-part-c-child-count-table6\n[Static-C-Count-7]: idea-section-618-data-products-static-tables-part-c-child-count-table7\n[Static-C-Count-8]: idea-section-618-data-products-static-tables-part-c-child-count-table8\n[Static-C-Count-9]: idea-section-618-data-products-static-tables-part-c-child-count-table9\n[Static-C-Count-10]: idea-section-618-data-products-static-tables-part-c-child-count-table10\n[Static-C-Count-11]: idea-section-618-data-products-static-tables-part-c-child-count-table11\n[Static-C-Dispute-1]: idea-section-618-data-products-static-tables-part-c-dispute-resolution-table1\n[Static-C-Dispute-2]: idea-section-618-data-products-static-tables-part-c-dispute-resolution-table2\n[Static-C-Dispute-3]: idea-section-618-data-products-static-tables-part-c-dispute-resolution-table3\n[Static-C-Exiting-1]: idea-section-618-data-products-static-tables-part-c-exiting-table1\n[Static-C-Exiting-2]: idea-section-618-data-products-static-tables-part-c-exiting-table2\n[Static-C-Exiting-3]: idea-section-618-data-products-static-tables-part-c-exiting-table3\n",
+      "keyword": [
+        "static-tables",
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "performance",
+        "section-618",
+        "special-education"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-static-tables-part-c",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:00"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false"
+    },
+    {
+      "@type": "dcat:Dataset",
+      "title": "IDEA Section 618 Data Products: Static Tables Part C Child Count and Settings Table 1",
+      "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.",
+      "keyword": [
+        "static-tables",
+        "individuals-with-disabilities-education-act",
+        "data-products",
+        "performance",
+        "section-618",
+        "special-education",
+        "part-b",
+        "child-count",
+        "settings",
+        "early-intervention"
+      ],
+      "modified": "2021-01-28",
+      "publisher": {
+        "@type": "org:Organization",
+        "name": "Office of Special Education Programs (OSEP)",
+        "subOrganziationOf": {
+            "@type": "org:Organization",
+            "name": "Office of Special Education and Rehabilitative Services (OSERS)",
+            "subOrganizationOf": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Education",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Government"
+                }
+            }
+        }
+      },
+      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "Office of Special Education Programs - Research to Practice Division",
+        "hasEmail": "mailto:OSEPideadata@ed.gov"
+      },
+      "identifier": "idea-section-618-data-products-static-tables-part-c-child-count-table1",
+
+      "accessLevel": "public",
+      "bureauCode": [
+        "018:00"
+      ],
+      "programCode": [
+        "018:000"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "spatial": "United States",
+      "amended_by_user": "false",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "title": "2019-2020",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C - Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.\n2019-2020",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2019-2020/part-c/child-count-and-settings/1920-cchildcountandsettings-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Fri, 29 Jan\n2021 15:43:00 GMT",
+            "content-length": "29865"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2018-2019",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C - Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.\n2018-2019",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2018-2019/part-c/child-count-and-settings/1819-cchildcountandsettings-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Mon, 10 Feb\n2020 19:11:23 GMT",
+            "content-length": "27942"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2017-2018",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C - Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.\n2017-2018",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2017-2018/part-c/child-count-and-settings/1718-cchildcountandsettings-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:57 GMT",
+            "content-length": "30988"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2016-2017",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C - Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.\n2016-2017",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2016-2017/part-c/child-count-and-settings/1617-cchildcountandsettings-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:57 GMT",
+            "content-length": "28447"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2015-2016",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C - Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.\n2015-2016",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2015-2016/part-c/child-count-and-settings/1516-cchildcountandsettings-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:57 GMT",
+            "content-length": "28496"
+          }
+        },
+        {
+          "@type": "dcat:Distribution",
+          "title": "2014-2015",
+          "description": "#IDEA Section 618 Data Products: Static Tables\n##Part C - Child Count and Settings\nTable 1 Number of infants and toddlers ages birth through 2 and 3 and older, and percentage of population, receiving early intervention services under IDEA, Part C, by age and state.\n2014-2015",
+          "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/2014-2015/part-c/child-count-and-settings/1415-cchildcountandsettings-1.xlsx",
+          "format": "xlsx",
+          "mediaType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "headerMetadata": {
+            "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "last-modified": "Thu, 25 Apr 2019 09:16:57 GMT",
+            "content-length": "28573"
+          }
+        }
+      ]
+    }
+  ]
+}
