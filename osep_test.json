@@ -1,13 +1,13 @@
 {
   "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
-  "@id": "osep_data_json",
+  "@id": "osep_test_data_json",
   "@type": "dcat:Catalog",
   "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
   "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
   "dataset": [
     {
       "@type": "dcat:Dataset",
-      "title": "IDEA Section 618 Data Products",
+      "title": "Test IDEA Section 618 Data Products",
       "description": "Section 618 of the Individuals with Disabilities Education Act (IDEA) requires that each state submit data about the infants and toddlers, birth through age 2, who receive early intervention services under Part C of IDEA and children with disabilities, ages 3 through 21, who receive special education and related services under Part B of IDEA.\nFiles containing the submitted data are organized in [State Level Data Files][1] and Static Data Tables containing summaries of data in [Part B][2] and [Part C][3].\n[1]:idea-section-618-data-products-state\n[2]:idea-section-618-data-products-static-part-b\n[3]:idea-section-618-data-products-static-part-c",
       "keyword": [
         "individuals-with-disabilities-education-act",
@@ -30,14 +30,12 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products",
-
+      "identifier": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -75,14 +73,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-state",
-
+      "identifier": "test-idea-section-618-data-products-state",
+      "isPartOf": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -92,7 +89,171 @@
       ],
       "license": "https://creativecommons.org/publicdomain/zero/1.0/",
       "spatial": "United States",
-      "amended_by_user": "false"
+      "amended_by_user": "false",
+      "references:" [
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2019-20.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2016-17.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2015-16.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2015.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2014-15.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2014.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2013-14.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/assessment/idea-partb-assessment-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/child-count-and-educational-environment/idea-partb-childcountandedenvironment-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/discipline/idea-partb-discipline-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/dispute-resolution/idea-partb-dispute-resolution-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/exiting/idea-partb-exiting-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/personnel/idea-partb-personnel-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-b/ceis-and-moe/idea-partb-moe-ceis-2011-12.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2019-20.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2016-17.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2015.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2014.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/child-count-and-settings/idea-partc-childcountandsettings-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/dispute-resolution/idea-partc-dispute-resolution-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-documentation-files/part-c/exiting/idea-partc-exiting-2012.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2019-20.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2016-17.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2015.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-data-note-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2014.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-data-note-2013.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/assessment/b-assessment-datanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/child-count-and-educational-environment/b-childcountandedenvironment-datanotes-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/discipline/b-discipline-datanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/dispute-resolution/b-disputeresolution-datanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/exiting/b-exiting-datanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-datanotes-2012.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/personnel/b-personnel-datanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-b/ceis-and-moe/b-moe-ceis-datanotes-2011.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2019-20.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exiting-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2018-19.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exiting-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2017-18.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exiting-datanotes-2016-17.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2016-17.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exitingdatanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2015-16.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exitingdatanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2014-15.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exitingdatanotes-2013-14.docx",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/child-count-and-settings/c-childcountsettings-datanotes-2013.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/dispute-resolution/c-disputeresolution-datanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/data-notes/part-c/exiting/c-exitingdatanotes-2012-13.doc",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-dictionary/b-datadictionary.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-dictionary/c-datadictionary.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-history/b-datahistory.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-history/c-datahistory.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2011.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2010.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2009.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2008.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2007.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2006.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-b/b-datanotes-2005.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2011.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2010.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2009.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2008.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2007.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2006.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/part-c/c-datanotes-2005.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/moe/b-maintenance-2011.pdf",
+          "https://www2.ed.gov/programs/osepidea/618-data/collection-documentation/legacy-data-collection-information/data-notes/moe/b-maintenance-2010.pdf"
+      ]
     },
     {
       "@type": "dcat:Dataset",
@@ -124,14 +285,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-state-part-b-assessment",
-
+      "identifier": "test-idea-section-618-data-products-state-part-b-assessment",
+      "isPartOf": "test-idea-section-618-data-products-state",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -146,7 +306,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-19",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2018-2019\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -159,7 +319,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-18",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2017-2018\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -172,7 +332,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-17",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2016-2017\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -185,7 +345,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2015-2016\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -198,7 +358,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2014-2015\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -211,7 +371,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2013-2014\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -224,7 +384,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2012-2013\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -237,7 +397,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2011-2012\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -250,7 +410,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2010-2011\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -263,7 +423,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2009-2010\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -276,7 +436,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2008-2009\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -289,7 +449,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2007-2008\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -331,14 +491,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-state-part-b-child-count",
-
+      "identifier": "test-idea-section-618-data-products-state-part-b-child-count",
+      "isPartOf": "test-idea-section-618-data-products-state",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -353,7 +512,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2011\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2011.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -366,7 +525,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2010\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2010.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -379,7 +538,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2009\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2009.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -392,7 +551,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2008\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2008.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -405,7 +564,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2007\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2007.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -418,7 +577,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2006\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2006.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -431,7 +590,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2005",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2005\n\n[Documentation](docs/test-idea-section-618-data-products-docs)",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2005.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -472,14 +631,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-static-tables-part-b",
-
+      "identifier": "test-idea-section-618-data-products-static-tables-part-b",
+      "isPartOf": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -523,14 +681,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-static-tables-part-b-assessment-table1",
-
+      "identifier": "test-idea-section-618-data-products-static-tables-part-b-assessment-table1",
+      "isPartOf": "test-idea-section-618-data-products-static-tables-part-b",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -651,14 +808,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-static-tables-part-c",
-
+      "identifier": "test-idea-section-618-data-products-static-tables-part-c",
+      "isPartOf": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -703,14 +859,13 @@
             }
         }
       },
-      "scraped_from": "https://www2.ed.gov/programs/osepidea/618-data/static-tables/index.html",
       "contactPoint": {
         "@type": "vcard:Contact",
         "fn": "Office of Special Education Programs - Research to Practice Division",
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
-      "identifier": "idea-section-618-data-products-static-tables-part-c-child-count-table1",
-
+      "identifier": "test-idea-section-618-data-products-static-tables-part-c-child-count-table1",
+      "isPartOf": "test-idea-section-618-data-products-static-tables-part-c",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
