@@ -79,7 +79,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-state",
-      "isPartOf": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -291,7 +290,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-state-part-b-assessment",
-      "isPartOf": "test-idea-section-618-data-products-state",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -497,7 +495,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-state-part-b-child-count",
-      "isPartOf": "test-idea-section-618-data-products-state",
       "accessLevel": "public",
       "bureauCode": [
         "018:15"
@@ -637,7 +634,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-static-tables-part-b",
-      "isPartOf": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -687,7 +683,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-static-tables-part-b-assessment-table1",
-      "isPartOf": "test-idea-section-618-data-products-static-tables-part-b",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -814,7 +809,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-static-tables-part-c",
-      "isPartOf": "test-idea-section-618-data-products",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
@@ -865,7 +859,6 @@
         "hasEmail": "mailto:OSEPideadata@ed.gov"
       },
       "identifier": "test-idea-section-618-data-products-static-tables-part-c-child-count-table1",
-      "isPartOf": "test-idea-section-618-data-products-static-tables-part-c",
       "accessLevel": "public",
       "bureauCode": [
         "018:00"
