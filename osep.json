@@ -8,7 +8,7 @@
     {
       "@type": "dcat:Dataset",
       "title": "IDEA Section 618 Data Products",
-      "description": "Section 618 of the Individuals with Disabilities Education Act (IDEA) requires that each state submit data about the infants and toddlers, birth through age 2, who receive early intervention services under Part C of IDEA and children with disabilities, ages 3 through 21, who receive special education and related services under Part B of IDEA.\nFiles containing the submitted data are organized in [State Level Data Files][1] and Static Data Tables containing summaries of data in [Part B][2] and [Part C][3].\n[1]:idea-section-618-data-products-state\n[2]:idea-section-618-data-products-static-part-b\n[3]:idea-section-618-data-products-static-part-c",
+      "description": "Section 618 of the Individuals with Disabilities Education Act (IDEA) requires that each state submit data about the infants and toddlers, birth through age 2, who receive early intervention services under Part C of IDEA and children with disabilities, ages 3 through 21, who receive special education and related services under Part B of IDEA.\nFiles containing the submitted data are organized in **[State Level Data Files][1]** and Static Data Tables containing summaries of data in **[Part B][2]** and **[Part C][3]**.\n[1]:idea-section-618-data-products-state\n[2]:idea-section-618-data-products-static-part-b\n[3]:idea-section-618-data-products-static-part-c",
       "keyword": [
         "individuals-with-disabilities-education-act",
         "data-products"
@@ -52,7 +52,7 @@
     {
       "@type": "dcat:Dataset",
       "title": "IDEA Section 618 State Level Data Files",
-      "description": "#IDEA Section 618 Data Products: State Level Data Files\nThere are 12 data collections authorized under the Individuals with Disabilities Education Act (IDEA) Section 618 under:\n\n##Part B:\n* [Child Count][B-Count]\n* [Educational Environments][B-Environ]\n* [Personnel][B-Personnel]\n* [Exiting][B-Exiting]\n* [Discipline][B-Discipline]\n* [Assessment][B-Assessment]\n* [Dispute Resolution][B-Dispute]\n* [Maintenance of Effort Reduction and Coordinated Early Intervening Services][B-Maint]\n\n##Part C:\n* [Child Count][C-Count]\n* [Settings][C-Settings]\n* [Exiting][C-Exiting]\n* [Dispute Resolution][C-Dispute]\n\n\\* Prior to school year (SY) 2012, the Part B Child Count and Educational Environments data and the Part C Child Count and Settings data were provided to the public in separate files.\n[B-Count]: idea-section-618-data-products-state-part-b-child-count\n[B-Environ]: idea-section-618-data-products-state-part-b-child-count-educational-environments\n[B-Assessment]: idea-section-618-data-products-state-part-b-assessment\n[B-Discipline]: idea-section-618-data-products-state-part-b-discipline\n[B-Dispute]: idea-section-618-data-products-state-part-b-dispute-resolution\n[B-Exiting]: idea-section-618-data-products-state-part-b-exiting\n[B-Maint]: idea-section-618-data-products-state-part-b-maintenance-of-effort-reduction\n[B-Personnel]: idea-section-618-data-products-state-part-b-personnel\n[C-Count]: idea-section-618-data-products-state-part-c-child-count\n[C-Settings]: idea-section-618-data-products-state-part-c-settings\n[C-Dispute]: idea-section-618-data-products-state-part-c-dispute\n[C-Exiting]: idea-section-618-data-products-state-part-c-exiting\n",
+      "description": "#IDEA Section 618 Data Products: State Level Data Files\nThere are 12 data collections authorized under the Individuals with Disabilities Education Act (IDEA) Section 618, 8 under Part B and 4 under Part C.\n\n##Part B:\n1. Child Count\n2. Educational Environments\n3. Personnel\n4. Exiting\n5. Discipline\n6. Assessment\n7. Dispute Resolution\n8. Maintenance of Effort Reduction and Coordinated Early Intervening Services\n\n##Part C:\n1. Child Count\n2. Settings\n3. Exiting\n4. Dispute Resolution\n\nMany 618 Data files are provided in Comma Separated Value (.CSV) format. This format allows for data to be easily loaded into a variety of applications. However, they are best viewed in applications that allow data to be manipulated in columns, most common of which are spreadsheets or databases (Excel, Access, etc.).\n\n##Part B:\n* [Assessment][B-Assessment]\n* [Child Count][B-Count]\n* [Child Counts and Educational Environments][B-Child-Environ]\n* [Discipline][B-Discipline]\n* [Dispute Resolution][B-Dispute]\n* [Educational Environments][B-Environ]\n* [Exiting][B-Exiting]\n* [Maintenance of Effort Reduction and Coordinated Early Intervening Services][B-Maint]\n* [Personnel][B-Personnel]\n\n##Part C:\n* [Child Count][C-Count]\n* [Child Count and Settings][C-Count-Settings]\n* [Dispute Resolution][C-Dispute]\n* [Exiting][C-Exiting]\n* [Settings][C-Settings]\n\n\* Prior to school year (SY) 2012, the Part B Child Count and Educational Environments data and the Part C Child Count and Settings data were provided to the public in separate files.\n[B-Count]: idea-section-618-state-level-data-files-part-b-child-count\n[B-Child-Environ]: idea-section-618-state-part-b-child-count-and-educational-environments\n[B-Environ]: idea-section-618-state-part-b-child-count-and-educational-environments\n[B-Assessment]: idea-section-618-state-level-data-files-part-b-assessment\n[B-Discipline]: idea-section-618-state-part-b-discipline\n[B-Dispute]: idea-section-618-state-part-b-dispute-resolution\n[B-Exiting]: idea-section-618-state-part-b-exiting\n[B-Maint]: idea-section-618-state-part-b-maintenance-of-effort-reduction-early-intervening-services\n[B-Personnel]: idea-section-618-state-part-b-personnel\n[C-Count]: idea-section-618-state-part-c-child-count\n[C-Count-Settings]: idea-section-618-state-part-c-child-count-and-settings\n[C-Settings]: idea-section-618-state-part-c-settings\n[C-Dispute]: idea-section-618-state-part-c-dispute-resolution\n[C-Exiting]: idea-section-618-state-part-c-exiting",
       "keyword": [
         "individuals-with-disabilities-education-act",
         "data-products",
@@ -146,7 +146,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-19",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -159,7 +159,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-18",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -172,7 +172,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-17",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -185,7 +185,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -198,7 +198,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -211,7 +211,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -224,7 +224,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -237,7 +237,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -250,7 +250,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -263,7 +263,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -276,7 +276,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -289,7 +289,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Assessment\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/assessment/bassessment2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -353,7 +353,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2011.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -366,7 +366,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2010.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -379,7 +379,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2009.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -392,7 +392,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2008.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -405,7 +405,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2007.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -418,7 +418,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2006.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -431,7 +431,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2005",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n2005\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count/bchildcount2005.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -495,7 +495,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2019-20.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -508,7 +508,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -521,7 +521,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -534,7 +534,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2016.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -547,7 +547,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2015.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -560,7 +560,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2014.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -573,7 +573,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2013.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -586,7 +586,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Child Count\n and Educational Environments\n2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/child-count-and-educational-environments/bchildcountandedenvironments2012.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -650,7 +650,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -663,7 +663,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -676,7 +676,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -689,7 +689,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -702,7 +702,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -715,7 +715,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -728,7 +728,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -741,7 +741,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -754,7 +754,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -767,7 +767,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -780,7 +780,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -793,7 +793,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -806,7 +806,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006-2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2006-2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2006-2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2006-07.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -819,7 +819,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005-2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2005-2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Discipline\n2005-2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/discipline/bdiscipline2005-06.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -883,7 +883,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -896,7 +896,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -909,7 +909,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -922,7 +922,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -935,7 +935,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -948,7 +948,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -961,7 +961,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -974,7 +974,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -987,7 +987,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1000,7 +1000,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1013,7 +1013,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1026,7 +1026,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1039,7 +1039,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006-2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2006-2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Dispute Resolution\n2006-2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/dispute-resolution/bdispres2006-07.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1103,7 +1103,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2011.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1116,7 +1116,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2010.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1129,7 +1129,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2009.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1142,7 +1142,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2008.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1155,7 +1155,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2007.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1168,7 +1168,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2006.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1181,7 +1181,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2005",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Educational Environments\n2005\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/educational-environments/benvironment2005.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1245,7 +1245,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1258,7 +1258,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1271,7 +1271,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1284,7 +1284,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1297,7 +1297,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1310,7 +1310,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1323,7 +1323,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1336,7 +1336,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1349,7 +1349,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1362,7 +1362,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1375,7 +1375,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1388,7 +1388,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1401,7 +1401,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006-2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2006-2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2006-2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2006-07.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1414,7 +1414,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005-2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2005-2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Exiting\n2005-2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/exiting/bexiting2005-06.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1479,7 +1479,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1492,7 +1492,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1505,7 +1505,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1518,7 +1518,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1531,7 +1531,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1544,7 +1544,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1557,7 +1557,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1570,7 +1570,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1583,7 +1583,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1596,7 +1596,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Maintenance of Effort Reduction\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/ceis-moe/bmaintenancedistrict2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1660,7 +1660,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1673,7 +1673,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1686,7 +1686,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1699,7 +1699,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1712,7 +1712,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1725,7 +1725,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2013.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1738,7 +1738,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2012.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1751,7 +1751,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2011.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1764,7 +1764,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2010.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1777,7 +1777,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2009.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1790,7 +1790,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2008.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1803,7 +1803,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2007.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1816,7 +1816,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006-2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2006-2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2006-2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2006.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1829,7 +1829,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005-2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2005-2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part B Personnel\n2005-2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-b-data/personnel/bpersonnel2005.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1893,7 +1893,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011",
-          "description": "IDEA Section 618 Part C Child Count\n2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2011.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1906,7 +1906,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010",
-          "description": "IDEA Section 618 Part C Child Count\n2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2010.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1919,7 +1919,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009",
-          "description": "IDEA Section 618 Part C Child Count\n2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2009.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1932,7 +1932,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008",
-          "description": "IDEA Section 618 Part C Child Count\n2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2008.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1945,7 +1945,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007",
-          "description": "IDEA Section 618 Part C Child Count\n2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2007.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1958,7 +1958,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006",
-          "description": "IDEA Section 618 Part C Child Count\n2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2006.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -1971,7 +1971,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005",
-          "description": "IDEA Section 618 Part C Child Count\n2005",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count\n2005\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count/cchildcount2005.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2036,7 +2036,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2019-2020",
-          "description": "IDEA Section 618 State Child Count and Settings\n2019-2020",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2019-2020\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2019-20.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2049,7 +2049,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "IDEA Section 618 State Child Count and Settings\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2062,7 +2062,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "IDEA Section 618 State Child Count and Settings\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2075,7 +2075,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "IDEA Section 618 State Child Count and Settings\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2088,7 +2088,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015",
-          "description": "IDEA Section 618 State Child Count and Settings\n2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2015.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2101,7 +2101,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014",
-          "description": "IDEA Section 618 State Child Count and Settings\n2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2014.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2114,7 +2114,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013",
-          "description": "IDEA Section 618 State Child Count and Settings\n2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2013.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2127,7 +2127,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012",
-          "description": "IDEA Section 618 State Child Count and Settings\n2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Child Count and Settings\n2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/child-count-and-settings/cchildcountandsettings2012.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2191,7 +2191,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2204,7 +2204,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2217,7 +2217,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2230,7 +2230,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2243,7 +2243,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2256,7 +2256,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2269,7 +2269,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-20913",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2282,7 +2282,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2295,7 +2295,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2308,7 +2308,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2321,7 +2321,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2334,7 +2334,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2347,7 +2347,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006-2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2006-2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Dispute Resolution\n2006-2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/dispute-resolution/cdispres2006-07.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2411,7 +2411,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2018-2019",
-          "description": "IDEA Section 618 Part C Exiting\n2018-2019",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2018-2019\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2018-19.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2424,7 +2424,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2017-2018",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2017-2018",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2017-2018\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2017-18.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2437,7 +2437,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2016-2017",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2016-2017",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2016-2017\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2016-17.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2450,7 +2450,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2015-2016",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2015-2016",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2015-2016\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2015-16.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2463,7 +2463,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2014-2015",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2014-2015",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2014-2015\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2014-15.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2476,7 +2476,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2013-2014",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2013-2014",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2013-2014\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2013-14.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2489,7 +2489,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2012-2013",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2012-2013",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2012-2013\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2012-13.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2502,7 +2502,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011-2012",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2011-2012",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2011-2012\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2011-12.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2515,7 +2515,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010-2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2010-2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2010-2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2010-11.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2528,7 +2528,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009-2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2009-2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2009-2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2009-10.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2541,7 +2541,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008-2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2008-2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2008-2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2008-09.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2554,7 +2554,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007-2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2007-2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2007-2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2007-08.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2567,7 +2567,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006-2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2006-2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2006-2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2006-07.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2580,7 +2580,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005-2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2005-2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Exiting\n2005-2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/exiting/cexiting2005-06.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2644,7 +2644,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2011",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2011",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2011\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2011.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2657,7 +2657,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2010",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2010",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2010\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2010.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2670,7 +2670,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2009",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2009",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2009\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2009.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2683,7 +2683,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2008",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2008",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2008\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2008.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2696,7 +2696,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2007",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2007",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2007\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2007.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2709,7 +2709,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2006",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2006",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2006\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2006.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -2722,7 +2722,7 @@
         {
           "@type": "dcat:Distribution",
           "title": "2005",
-          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2005",
+          "description": "#IDEA Section 618 Data Products\n##State Level Data Files Part C Settings\n2005\n\n*[Documentation](/documentation/idea-section-618-state-level-documentation)*",
           "downloadURL": "https://www2.ed.gov/programs/osepidea/618-data/state-level-data-files/part-c-data/program-settings/csettings2005.csv",
           "format": "csv",
           "mediaType": "text/csv",
@@ -3441,7 +3441,7 @@
     {
       "@type": "dcat:Dataset",
       "title": "IDEA Section 618 Data Products: Static Tables Part B Child Count & Educational Environments Table 3",
-      "description": "Number of students ages 6 through 21 served under IDEA, Part B, by disability and state.",
+      "description": "#IDEA Section 618 Data Products: Static Tables\n##Part B Child Count and Educational Environments\nTable 3 Number of students ages 6 through 21 served under IDEA, Part B, by disability and state.",
       "keyword": [
         "static-tables",
         "individuals-with-disabilities-education-act",
