@@ -1,7 +1,6 @@
 import os
 import sys
 import cgi
-import tempfile
 import requests
 
 import ckanapi
@@ -18,7 +17,7 @@ doc_types = [
 
 # Kill WinWord.exe process
 def kill_word_process():
-	process_list = wmi.WMI()
+    process_list = wmi.WMI()
     for process in process_list.Win32_Process(Name='WINWORD.EXE'):
         try:
             process.Terminate()
@@ -27,7 +26,7 @@ def kill_word_process():
 
 # Convert Word document at passed path to PDF document at second passed path.
 def convert_word_to_pdf(path_to_doc, path_to_pdf):
-	print('Converting {} to {}'.format(path_to_doc, path_to_pdf))
+    print('Converting {} to {}'.format(path_to_doc, path_to_pdf))
     kill_word_process()
     wp = win32com.client.Dispatch("Word.Application")
     word_doc = wp.Documents.Open(path_to_doc)
@@ -36,44 +35,42 @@ def convert_word_to_pdf(path_to_doc, path_to_pdf):
     wp.Quit()
 
 #Query CKAN for the resources associated with the passed identifier.
-def get_resources(id):
+def get_resources(ckan, id):
 
     resources = []       # List of all resources
     transformables = []  # List of all transformable resources
 
     try:
-      dataset = remote.call_action(action='package_show', data_dict={
-                'id': dataset_id})
-      if dataset.get('resources'):
-          dataset_resources = [{'id': r['id'], 'url': r['url']} for r in dataset['resources']]
-          dataset_transformables = [{'id': r['id'], 'url': r['url']} for r in dataset['resources'] if r['url_type'] != 'upload' and r['url'] and r['mimetype'] in doc_types]
-          resources.extend(dataset_resources)
-          transformables.extend(dataset_transformables)
+      dataset = ckan.call_action(action='package_show', data_dict={
+                'id': id})
+      resources = dataset.get('resources')
+      for r in resources:
+          # print("Resource URL type {}, Mime Type {}".format(r['url_type'], r['mimetype']))
+          if r['url_type'] == 'upload':
+              if r['url'] is not None:
+                  if r['mimetype'] in doc_types:
+                      transformables.append(r)
                         
     except ckanapi.errors.NotFound:
-            print('ID not found: {}'.format(dataset_id))
+            print('ID not found: {}'.format(id))
 
     return (resources, transformables)
 
 def download_file(url, directory):
-    content_type = None
 
     try:
         headers = {
             "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36"
         }
         r = requests.get(url, stream=True, headers=headers)
-        #r.raise_for_status()
-        # save the content type, we will need to return it
-        content_type = r.headers.get('Content-Type','')
 
         filename = url.split('/')[-1]
         filepath = os.path.join(directory, filename)
 
-		with open(filepath, "wb") as dump_file:
-        	# For each chunk of the file we are getting, flush it into out temp file
-        	for chunk in r.iter_content(chunk_size=8192):
-            	dump_file.write(chunk)
+        with open(filepath, "wb") as dump_file:
+            # For each chunk of the file we are getting, flush it into out temp file
+            for chunk in r.iter_content(chunk_size=8192):
+                dump_file.write(chunk)
             	
         # Return the file path for the downloaded file
         return (filepath)
@@ -91,9 +88,8 @@ def download_file(url, directory):
 
     return (None)
 
-def download_resource(resource, directory):
+def convert_resource(ckan, resource, directory):
 
-    resource_id = resource['id']
     resource_url = resource['url']
 
     filepath = download_file(resource_url, directory)
@@ -102,35 +98,46 @@ def download_resource(resource, directory):
         print('Cannot download {} due to an error.'.format(resource_url))
         return False
 
-	#Determine the path to use for the PDF document.
-	pdf_filepath = filepath.split('.')[-1].append('pdf')
-	filename = pdf_filepath.split('/')[-1]
+    #Determine the path to use for the PDF document.
+    #Use the same file name with a different extension.
+    pdf_filepath, ext = os.path.splitext(filepath)
+    pdf_filepath += '.pdf'
+    path, filename = os.path.split(pdf_filepath)
+    
+    convert_word_to_pdf(filepath, pdf_filepath)
+    return pdf_filepath
 	
-	with open(pdf_filepath,"rb") as pdf_file:
-    	try:
-        	# CKAN only accepts this kind of object here...
-        	file_obj = cgi.FieldStorage()
-        	file_obj.file = pdf_file
-        	file_obj.filename = resource_url.split('/')[-1]
-        	file_obj.file.name = resource_url.split('/')[-1]
+def update_resource(ckan, resource_id, update_filename):
+
+    try:
+        update_file = open(update_filename, "rb")
+        # CKAN only accepts this kind of object here...
+        file_obj = cgi.FieldStorage()
+        file_obj.file = update_file
+        file_obj.filename = update_filename
+        file_obj.file.name = update_filename
         
-        	data_dict = {
-            	'id': resource_id,
-            	'format': 'PDF',
-            	'mimetype': 'application/pdf'
-        	}
-        	result = requests.post('{}api/action/resource_update'.format(url),
-            	data=data_dict,
-            	headers={"X-CKAN-API-Key": apiKey},
-            	files=[('upload', file_obj.file)]
-            	)
+        result = ckan.call_action(action='resource_patch', data_dict={
+            'id': resource_id,
+            'format': 'PDF',
+            'name': update_filename,
+            'mimetype': 'application/pdf',
+            'upload': file_obj.file
+            })
+        # result = requests.post('{}api/action/resource_update'.format(url),
+        #     data=data_dict,
+        #     headers={"X-CKAN-API-Key": apiKey},
+        #     files=[('upload', file_obj.file)]
+        #     )
+        
 
-    	except Exception as e:
-        	print('Cannot update resource with ID {}. Error was: {}'.format(resource_id, e))
-        	return False
+    except IOError:
+        print('Could not open {}'.format(update_filename))
+    except Exception as e:
+        print('Cannot update resource with ID {}. Error was: {}'.format(resource_id, e))
 
-
-    return result
+    update_file.close()
+    
 
 if __name__ == '__main__':
 
@@ -150,23 +157,23 @@ if __name__ == '__main__':
     print('CKAN URL: {}'.format(url))
 
     if len(sys.argv) < 2:
-        print("Identifier to convert needed as command line argument.")
+        print("Identifier to convert needed as irst command line argument.")
+        sys.exit(1)
+    if len(sys.argv) < 3:
+        print("Directory to use for conversion needed as second command line argument.")
         sys.exit(1)
 
     # Get a list of all resources, and a list of all resources that are links
-    resources, docs = get_resources(sys.argv[1])
+    resources, docs = get_resources(remote, sys.argv[1])
     print('{} resources found.'.format(len(resources)))
     print('{} resources need to be converted.'.format(len(docs)))
     print('================================')
 
-    # Create a temporary directory for holding all the files. Once this is done,
-    # the temporary directory will be automatically "closed" and all its content will
-    # be deleted.
-    with tempfile.TemporaryDirectory() as temp_dir:
+    out_dir = sys.argv[2]
 
-    	# Convert them one by one, counting them as we go.
-    	counter = 0
-    	for doc in docs:
-        	counter = counter + 1
-        	print('[{}/{}] Transforming resource {} '.format(counter, len(docs), docs['url']))
-        	download_resource(doc, temp_dir.name())
+    # Convert them one by one, counting them as we go.
+    counter = 0
+    for doc in docs:
+        counter = counter + 1
+        print('[{}/{}] Converting resource {} '.format(counter, len(docs), doc['url']))
+        update_filepath = convert_resource(remote, doc, out_dir)
